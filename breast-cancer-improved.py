@@ -15,4 +15,4 @@ df_cancer = pd.DataFrame(np.c_[cancer['data'], cancer['target']], columns = np.a
 print(df_cancer.head())
 print(df_cancer.tail())
 
-sns.pairplot(df_cancer, vars = ['mean radius','mean texture', 'mean area', 'mean perimeter', 'mean smoothness'])
+sns.pairplot(df_cancer,hue = 'target', vars = ['mean radius','mean texture', 'mean area', 'mean perimeter', 'mean smoothness'])
