@@ -20,3 +20,8 @@ sns.countplot(df_cancer['target'])
 sns.scatterplot(x='mean area', y='mean smoothness', hue = 'target', data = df_cancer)
 plt.figure(figsize= (20,10))
 sns.heatmap(df_cancer.corr(), annot=True)
+X = df_cancer.drop(['target'], axis = 1)
+y = df_cancer['target']
+
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.2, random_state=5)
