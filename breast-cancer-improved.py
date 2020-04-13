@@ -32,3 +32,6 @@ svc_model.fit(X_train, y_train)
 y_predict = svc_model.predict(X_test)
 cm = confusion_matrix(y_test, y_predict)
 sns.heatmap(cm, annot = True)
+min_train  = X_train.min()
+range_train = (X_train-min_train).max()
+X_train_scaled = (X_train-min_train)/range_train
