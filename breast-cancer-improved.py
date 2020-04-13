@@ -30,3 +30,5 @@ from sklearn.metrics import classification_report, confusion_matrix
 svc_model = SVC()
 svc_model.fit(X_train, y_train)
 y_predict = svc_model.predict(X_test)
+cm = confusion_matrix(y_test, y_predict)
+sns.heatmap(cm, annot = True)
