@@ -48,3 +48,14 @@ cm = confusion_matrix(y_test,y_predict)
 sns.heatmap(cm, annot=True)
 print(classification_report(y_test,y_predict))
 plt.show()
+
+#Improving the model
+param_grid = {'C':[0.1,1,10,100],'gamma':[1,0.1,0.01,0.001], 'kernel':['rbf']}
+from sklearn.model_selection import GridSearchCV
+grid = GridSearchCV(SVC(), param_grid, refit= True, verbose=4)
+grid.fit(X_train_scaled, y_train)
+grid.best_params_
+grid_predictions = grid.predict(X_test_scaled)
+cm = confusion_matrix(y_test, grid_predictions)
+sns.heatmap(cm, annot=True)
+plt.show()
