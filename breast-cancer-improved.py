@@ -35,3 +35,14 @@ sns.heatmap(cm, annot = True)
 min_train  = X_train.min()
 range_train = (X_train-min_train).max()
 X_train_scaled = (X_train-min_train)/range_train
+sns.scatterplot(x = X_train['mean area'], y = X_train['mean smoothness'], hue=y_train)
+sns.scatterplot(x = X_train_scaled['mean area'], y = X_train_scaled['mean smoothness'], hue=y_train)
+min_test = X_test.min()
+range_test = (X_test - min_test).max()
+X_test_scaled = (X_test - min_test)/range_test
+svc_model.fit(X_train_scaled, y_train)
+
+
+y_predict = svc_model.predict(X_test_scaled)
+cm = confusion_matrix(y_test,y_predict)
+sns.heatmap(cm, annot=True)
