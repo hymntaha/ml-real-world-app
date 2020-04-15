@@ -16,3 +16,6 @@ testing = np.array(fashion_test_df, dtype="float32")
 
 i = random.randint(1,60000)
 plt.imshow(training[i,1:].reshape(28,28))
+
+label = training[i,0]
+print(label)
