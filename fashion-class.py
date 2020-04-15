@@ -29,3 +29,5 @@ L_grid = 15
 # fig, axes = plt.subplots(L_grid,W_grid)
 
 fig, axes = plt.subplot(L_grid, W_grid, figsize = (17,17))
+axes = axes.ravel() # flaten the 15 x 15 matrix into 225 array
+n_training = len(training) # get the length of the training dataset
