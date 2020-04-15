@@ -19,3 +19,13 @@ plt.imshow(training[i,1:].reshape(28,28))
 
 label = training[i,0]
 print(label)
+
+# Lets view more images in a grid format
+# Define the dimensions of the plot grid
+
+W_grid = 15
+L_grid = 15
+
+# fig, axes = plt.subplots(L_grid,W_grid)
+
+fig, axes = plt.subplot(L_grid, W_grid, figsize = (17,17))
