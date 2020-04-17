@@ -31,3 +31,11 @@ L_grid = 15
 fig, axes = plt.subplot(L_grid, W_grid, figsize = (17,17))
 axes = axes.ravel() # flaten the 15 x 15 matrix into 225 array
 n_training = len(training) # get the length of the training dataset
+
+for i in np.arange(0, W_grid * L_grid):
+    index = np.random.randint(0,n_training)
+    axes[i].imshow(training[index,1:].reshape(28,28))
+    axes[i].set_title(training[index,0], fontsize = 8)
+    axes[i].axis('off')
+
+plt.subplots_adjust(hspace=0.4)
