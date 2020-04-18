@@ -63,3 +63,10 @@ from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Dense, Flatten, Dropout
 from keras.optimizers import Adam
 from keras.callbacks import TensorBoard
+
+cnn_model - Sequential()
+cnn_model.add(Conv2D(32,3,3, input_shape= (28,28,1), activation = 'relu'))
+
+cnn_model.add(MaxPooling2D(pool_size=(2,2)))
+cnn_model.add(Flatten())
+cnn_model.add(Dense(output_dim=32, activation='relu'))
