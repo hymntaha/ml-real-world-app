@@ -50,3 +50,7 @@ y_test = testing[:,0]
 from sklearn.model_selection import train_test_split
 X_train, X_validate,y_train, y_validate = train_test_split(X_train,y_train, test_size=0.2, random_state=12345)
 
+X_train = X_train.reshape(X_train.shape[0] * (28,28,1))
+X_test = X_test.reshape(X_test.shape[0]*(28,28,1))
+X_validate = X_validate.reshape(X_validate.shape[0] * (28,28,1))
+
