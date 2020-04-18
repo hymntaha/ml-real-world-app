@@ -48,3 +48,5 @@ X_test = testing[:,1:]/255
 y_test = testing[:,0]
 
 from sklearn.model_selection import train_test_split
+X_train, X_validate,y_train, y_validate = train_test_split(X_train,y_train, test_size=0.2, random_state=12345)
+
