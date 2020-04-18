@@ -39,3 +39,12 @@ for i in np.arange(0, W_grid * L_grid):
     axes[i].axis('off')
 
 plt.subplots_adjust(hspace=0.4)
+
+
+X_train = training[:,1:]/255
+y_train = training[:,0]
+
+X_test = testing[:,1:]/255
+y_test = testing[:,0]
+
+from sklearn.model_selection import train_test_split
