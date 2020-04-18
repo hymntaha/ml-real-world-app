@@ -59,3 +59,7 @@ X_test.shape
 X_validate.shape
 
 import keras
+from keras.models import Sequential
+from keras.layers import Conv2D, MaxPooling2D, Dense, Flatten, Dropout
+from keras.optimizers import Adam
+from keras.callbacks import TensorBoard
