@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/fashion-class.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="611">
-              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
             </state>
           </provider>
         </entry>
@@ -175,12 +175,12 @@
       <workItem from="1587104089659" duration="553000" />
       <workItem from="1587104670402" duration="12000" />
       <workItem from="1587188779293" duration="1950000" />
-      <workItem from="1587275314134" duration="1263000" />
+      <workItem from="1587275314134" duration="1429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9939000" />
+    <option name="totallyTimeSpent" value="10105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1013" extended-state="6" />
@@ -229,7 +229,7 @@
     <entry file="file://$PROJECT_DIR$/fashion-class.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="611">
-          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
         </state>
       </provider>
     </entry>

@@ -95,3 +95,10 @@ for i in np.arange(0, L * W):
 
 plt.subplots_adjust(wpsace=0.5)
 
+
+from sklearn.metrics import confusion_matrix
+cm = confusion_matrix(y_test, predicted_class)
+plt.figure(figsize=(14,10))
+sns.heatmap(cm, annot=True)
+
+
