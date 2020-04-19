@@ -71,3 +71,7 @@ cnn_model.add(MaxPooling2D(pool_size=(2,2)))
 cnn_model.add(Flatten())
 cnn_model.add(Dense(output_dim=32, activation='relu'))
 cnn_model.add(Dense(output_dim=10, activation='sigmoid'))
+cnn_model.compile(loss='sparse_categorical_crossentropy', optimizer=Adam(lr=0.001), metrics=['accuracy'])
+epochs = 50
+
+cnn_model.fit(X_train, y_train, batch_size=512, nb_epoch=epochs, verbose=1, validation_data = (X_validate,y_validate))

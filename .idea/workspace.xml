@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9428aae-5543-4385-b4e1-e807a6d000a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fashion-class.py" beforeDir="false" afterPath="$PROJECT_DIR$/fashion-class.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fashion-class.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
+            <state relative-caret-position="577">
+              <caret line="76" column="118" selection-start-line="76" selection-start-column="118" selection-end-line="76" selection-end-column="118" />
             </state>
           </provider>
         </entry>
@@ -176,12 +175,12 @@
       <workItem from="1587104089659" duration="553000" />
       <workItem from="1587104670402" duration="12000" />
       <workItem from="1587188779293" duration="1950000" />
-      <workItem from="1587275314134" duration="549000" />
+      <workItem from="1587275314134" duration="831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9225000" />
+    <option name="totallyTimeSpent" value="9507000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1013" extended-state="6" />
@@ -229,8 +228,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fashion-class.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
+        <state relative-caret-position="577">
+          <caret line="76" column="118" selection-start-line="76" selection-start-column="118" selection-end-line="76" selection-end-column="118" />
         </state>
       </provider>
     </entry>
