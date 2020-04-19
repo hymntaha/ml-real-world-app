@@ -78,3 +78,8 @@ cnn_model.fit(X_train, y_train, batch_size=512, nb_epoch=epochs, verbose=1, vali
 
 evaluation = cnn_model.evaluate(X_test, y_test)
 print('Test Accuracy : {:.3f}'.format(evaluation[1]))
+
+
+predicted_class = cnn_model.predict_classes(X_test)
+print(predicted_class)
+
