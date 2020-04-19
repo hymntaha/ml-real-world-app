@@ -83,3 +83,15 @@ print('Test Accuracy : {:.3f}'.format(evaluation[1]))
 predicted_class = cnn_model.predict_classes(X_test)
 print(predicted_class)
 
+L = 5
+W = 5
+fig,axes = plt.subplots(L,W, figsize = (12,12))
+axes = axes.ravel()
+
+for i in np.arange(0, L * W):
+    axes[i].imshow(X_test[i].reshape(28,28))
+    axes[i].set_title("Prediction Class = {:0.1f}\n True Class= {:0.1f}". format(predicted_class[i],y_test[i]))
+    axes[i].axis('off')
+
+plt.subplots_adjust(wpsace=0.5)
+
