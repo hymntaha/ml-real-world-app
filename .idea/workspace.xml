@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9428aae-5543-4385-b4e1-e807a6d000a6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fashion-class.py" beforeDir="false" afterPath="$PROJECT_DIR$/fashion-class.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fashion-class.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="71" column="54" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
+            <state relative-caret-position="611">
+              <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -52,11 +53,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="696" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="744" />
-    <option name="height" value="833" />
+    <option name="width" value="1920" />
+    <option name="height" value="1013" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -175,12 +175,13 @@
       <workItem from="1586931452905" duration="683000" />
       <workItem from="1587104089659" duration="553000" />
       <workItem from="1587104670402" duration="12000" />
-      <workItem from="1587188779293" duration="1906000" />
+      <workItem from="1587188779293" duration="1950000" />
+      <workItem from="1587275314134" duration="549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8632000" />
+    <option name="totallyTimeSpent" value="9225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1013" extended-state="6" />
@@ -214,10 +215,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/datasets/fashion-mnist_test.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/breast-cancer-improved.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -228,8 +229,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fashion-class.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="71" column="54" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
+        <state relative-caret-position="611">
+          <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
         </state>
       </provider>
     </entry>
