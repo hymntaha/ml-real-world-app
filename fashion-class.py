@@ -75,3 +75,6 @@ cnn_model.compile(loss='sparse_categorical_crossentropy', optimizer=Adam(lr=0.00
 epochs = 50
 
 cnn_model.fit(X_train, y_train, batch_size=512, nb_epoch=epochs, verbose=1, validation_data = (X_validate,y_validate))
+
+evaluation = cnn_model.evaluate(X_test, y_test)
+print('Test Accuracy : {:.3f}'.format(evaluation[1]))
