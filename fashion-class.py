@@ -102,3 +102,8 @@ plt.figure(figsize=(14,10))
 sns.heatmap(cm, annot=True)
 
 
+from sklearn.metrics import classification_report
+num_classes = 10
+
+target_names = ['Class {}'.format(i) for i in range(num_classes)]
+print(classification_report(y_test, predicted_classes, target_names target_names))
