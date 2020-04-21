@@ -27,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/fashion-class.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="611">
-              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+              <caret line="109" selection-start-line="109" selection-end-line="109" />
             </state>
           </provider>
         </entry>
@@ -174,16 +174,17 @@
       <workItem from="1587104670402" duration="12000" />
       <workItem from="1587188779293" duration="1950000" />
       <workItem from="1587275314134" duration="1455000" />
+      <workItem from="1587447426309" duration="757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10131000" />
+    <option name="totallyTimeSpent" value="10888000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1013" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1013" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.48645163" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.48615548" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -197,7 +198,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22209567" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22209567" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -211,10 +212,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/datasets/fashion-mnist_test.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/breast-cancer-improved.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -226,7 +227,7 @@
     <entry file="file://$PROJECT_DIR$/fashion-class.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="611">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
         </state>
       </provider>
     </entry>
