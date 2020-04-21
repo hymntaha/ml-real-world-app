@@ -10,3 +10,7 @@ dataset.head()
 dataset.descibe()
 
 dataset["hour"] = dateset.hour.str.slice(1,3).astype(int)
+
+
+dataset2 = dataset.copy().drop(columns = ['user','screen_list','enrolled_date','first_open','enrolled'])
+dataset2.head()
