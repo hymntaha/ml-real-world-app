@@ -24,3 +24,6 @@ for i in range(1, dataset2.shape[1]+1):
     vals = np.size(dataset2.iloc[:, i-1].unique())
     plt.hist(dataset2.iloc[:, i-1], bins = vals, color = '#3F5D7D' )
 
+
+#correlation with response
+dataset2.corrwith(dataset.enrolled).plot.bar(figsize = (20,10),title= 'Correlation with Response Variable', fontsize=15, rot=45, grid = True)
