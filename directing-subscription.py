@@ -33,3 +33,5 @@ sn.set(style='white', font_scale=2)
 corr = dataset2.corr()
 
 # Generate a mask for the upper triangle
+mask = np.zeros_like(corr, dtype=np.bool)
+mask[np.triu_indices_from(mask)] = true
