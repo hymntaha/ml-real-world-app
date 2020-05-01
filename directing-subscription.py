@@ -34,4 +34,4 @@ corr = dataset2.corr()
 
 # Generate a mask for the upper triangle
 mask = np.zeros_like(corr, dtype=np.bool)
-mask[np.triu_indices_from(mask)] = true
+mask[np.triu_indices_from(mask)] = True
