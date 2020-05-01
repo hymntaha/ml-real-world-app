@@ -35,3 +35,10 @@ corr = dataset2.corr()
 # Generate a mask for the upper triangle
 mask = np.zeros_like(corr, dtype=np.bool)
 mask[np.triu_indices_from(mask)] = True
+
+#Set up the matplotlib figure
+f,ax = plt.subplots_(figsize=(18,15))
+f.suptitle("Correlation Matrix", fontsize = 40)
+
+#Generat ea custom diverging colormap
+cmap = sn.diverging_palette(220,10,as_cmap=True)
