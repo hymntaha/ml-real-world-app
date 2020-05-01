@@ -42,3 +42,6 @@ f.suptitle("Correlation Matrix", fontsize = 40)
 
 #Generat ea custom diverging colormap
 cmap = sn.diverging_palette(220,10,as_cmap=True)
+
+#Draw the heatmap with the mask and correct aspect ratio
+sn.heatmap(corr, mask=mask, cmap=cmap, vmax=.3, center=0, square=True, linewidths=.5, cbar_kws={"shrink": 0.5})
