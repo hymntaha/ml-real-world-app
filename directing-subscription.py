@@ -27,3 +27,9 @@ for i in range(1, dataset2.shape[1]+1):
 
 #correlation with response
 dataset2.corrwith(dataset.enrolled).plot.bar(figsize = (20,10),title= 'Correlation with Response Variable', fontsize=15, rot=45, grid = True)
+#correlation matrix
+sn.set(style='white', font_scale=2)
+#Compute the correlation matrix
+corr = dataset2.corr()
+
+# Generate a mask for the upper triangle
