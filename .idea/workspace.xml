@@ -38,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/directing-subscription.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="620">
-              <caret line="60" column="73" selection-start-line="60" selection-start-column="73" selection-end-line="60" selection-end-column="73" />
+              <caret line="63" column="62" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -184,12 +184,12 @@
       <workItem from="1587275314134" duration="1455000" />
       <workItem from="1587447426309" duration="1442000" />
       <workItem from="1588312522732" duration="2342000" />
-      <workItem from="1588399842318" duration="911000" />
+      <workItem from="1588399842318" duration="1084000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14826000" />
+    <option name="totallyTimeSpent" value="14999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="23" width="1920" height="1011" extended-state="6" />
@@ -245,7 +245,7 @@
     <entry file="file://$PROJECT_DIR$/directing-subscription.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
-          <caret line="60" column="73" selection-start-line="60" selection-start-column="73" selection-end-line="60" selection-end-column="73" />
+          <caret line="63" column="62" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
         </state>
       </provider>
     </entry>

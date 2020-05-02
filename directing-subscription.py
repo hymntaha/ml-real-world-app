@@ -59,3 +59,7 @@ plt.show
 
 dataset.loc[dataset.difference > 48, 'enrolled'] = 0
 dataset = dataset.drop(columns=['difference','enrolled_date', 'first_open'])
+
+# formatiing the screen_list field
+top_screens = pd.read_csv('top_screen.csv').top_screens.values
+
