@@ -57,4 +57,4 @@ plt.hist(dataset['difference'].dropna(), color='#3F5D7D', range = [0, 100])
 plt.title('Distribution of Time-Since-Enrolled')
 plt.show
 
-dateset.loc[dataset.difference > 48, 'enrolled'] = 0
+dataset.loc[dataset.difference > 48, 'enrolled'] = 0
