@@ -45,3 +45,8 @@ cmap = sn.diverging_palette(220,10,as_cmap=True)
 
 #Draw the heatmap with the mask and correct aspect ratio
 sn.heatmap(corr, mask=mask, cmap=cmap, vmax=.3, center=0, square=True, linewidths=.5, cbar_kws={"shrink": 0.5})
+
+#feature engineering
+dataset.dtypes
+dataset["first_open"] = [parser.parse(row_data) for row_data in dataset['first_open']]
+dataset["enrolled_date"] = [parser.parse(row_data) for row_data in dataset['enrolled_date']]
