@@ -58,3 +58,4 @@ plt.title('Distribution of Time-Since-Enrolled')
 plt.show
 
 dataset.loc[dataset.difference > 48, 'enrolled'] = 0
+dataset = dataset.drop(columns=['difference','enrolled_date', 'first_open'])
