@@ -53,6 +53,8 @@ dataset["enrolled_date"] = [parser.parse(row_data) if isinstance(row_data) else 
 
 dataset["difference"] = (dateset.enrolled_date - dataset.first_open).astype('timedelta64[h]')
 
-plt.hist(dataset['difference'].dropna(), color='#3F5D7D')
+plt.hist(dataset['difference'].dropna(), color='#3F5D7D', range = [0, 100])
 plt.title('Distribution of Time-Since-Enrolled')
 plt.show
+
+dateset.loc[dataset.difference > 48, 'enrolled'] = 0
