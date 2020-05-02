@@ -49,4 +49,4 @@ sn.heatmap(corr, mask=mask, cmap=cmap, vmax=.3, center=0, square=True, linewidth
 #feature engineering
 dataset.dtypes
 dataset["first_open"] = [parser.parse(row_data) for row_data in dataset['first_open']]
-dataset["enrolled_date"] = [parser.parse(row_data) for row_data in dataset['enrolled_date']]
+dataset["enrolled_date"] = [parser.parse(row_data) if isinstance(row_data) else row_data for row_data in dataset['enrolled_date']]
