@@ -74,3 +74,4 @@ dataset = dataset.drop(columns=["screen_list"])
 #funnels
 savings_screens = ["Saving1","Saving2","Saving2Amount","Saving4","Saving5","Saving6","Saving7","Saving8","Saving9","Saving10",]
 dataset['SavingsCount'] = dataset[savings_screens].sum(axis = 1)
+dataset = dataset.drop(columns=savings_screens)
