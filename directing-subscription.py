@@ -68,3 +68,5 @@ for sc in top_screens:
     dataset[sc] = dataset.screen_list.str.contains(sc).astype(int)
     dataset["screen_list"] = dataset.screen_list.str.replace(sc+",", "")
 
+dataset["Other"] = dataset.screen_list.str.count(",")
+dataset = dataset.drop(columns=["screen_list"])
