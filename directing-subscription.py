@@ -66,5 +66,5 @@ top_screens = pd.read_csv('top_screen.csv').top_screens.values
 dataset["screen_list"] = dataset.screen_list.astype(str) + ','
 for sc in top_screens:
     dataset[sc] = dataset.screen_list.str.contains(sc).astype(int)
-    dataset["screen_list"] = datase.screen_list.str.replace(sc+",", "")
+    dataset["screen_list"] = dataset.screen_list.str.replace(sc+",", "")
 
