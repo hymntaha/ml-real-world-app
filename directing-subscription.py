@@ -79,3 +79,7 @@ dataset = dataset.drop(columns=savings_screens)
 cm_screens = ["Credit1", "Credit2","Credit3","Credit3Container","Credit3Dashboard"]
 dataset["CMCount"] = dataset[cm_screens].sum(axis=1)
 dataset = dataset.drop(columns = cm_screens)
+
+loan_screens = ['Loan', 'Loan2', 'Loan3', 'Loan4']
+dataset['LoansCount'] = dataset[loan_screens].sum(axis=1)
+dataset = dataset.drop(columns=loan_screens)
