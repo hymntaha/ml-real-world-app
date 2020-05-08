@@ -26,3 +26,7 @@ X_test2 = pd.DataFrame(sc_X.transform(X_test))
 X_train2.columns = X_train.columns.values
 X_test2.columns = X_test.columns.values
 X_train2.index = X_train.index.values
+X_train = X_train2
+X_test = X_test2
+
+#Model Building
