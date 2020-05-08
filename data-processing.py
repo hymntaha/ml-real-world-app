@@ -30,3 +30,5 @@ X_train = X_train2
 X_test = X_test2
 
 #Model Building
+from sklearn.linear_model import LogisticRegression
+classifier = LogisticRegression(random_state=0, penalty='L1')
